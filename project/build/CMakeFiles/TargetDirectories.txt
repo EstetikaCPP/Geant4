@@ -1,0 +1,4 @@
+/home/user/soft/project/build/CMakeFiles/rebuild_cache.dir
+/home/user/soft/project/build/CMakeFiles/edit_cache.dir
+/home/user/soft/project/build/CMakeFiles/Test.dir
+/home/user/soft/project/build/CMakeFiles/test.dir
