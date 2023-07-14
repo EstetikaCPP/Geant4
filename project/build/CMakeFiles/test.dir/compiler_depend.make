@@ -388,7 +388,13 @@ CMakeFiles/test.dir/construction.cc.o: ../construction.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4LPhysicsFreeVector.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsFreeVector.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Pow.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Color.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc
 
 CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/stdc-predef.h \
@@ -530,11 +536,25 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/c++/5/bits/ostream.tcc \
   /usr/include/c++/5/istream \
   /usr/include/c++/5/bits/istream.tcc \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RunManager.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Types.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GlobalConfig.hh \
-  /usr/include/c++/5/complex \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/c++/5/cstddef \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfeatures.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/c++/5/utility \
+  /usr/include/c++/5/bits/stl_relops.h \
+  /usr/include/c++/5/algorithm \
+  /usr/include/c++/5/bits/stl_algo.h \
+  /usr/include/c++/5/bits/algorithmfwd.h \
+  /usr/include/c++/5/bits/stl_heap.h \
+  /usr/include/c++/5/bits/stl_tempbuf.h \
+  /usr/include/c++/5/bits/stl_construct.h \
+  /usr/include/c++/5/random \
   /usr/include/c++/5/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -547,21 +567,6 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/x86_64-linux-gnu/bits/mathdef.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
-  /usr/include/c++/5/sstream \
-  /usr/include/c++/5/bits/sstream.tcc \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/tls.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Event.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/globals.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ios.hh \
-  /usr/include/c++/5/algorithm \
-  /usr/include/c++/5/utility \
-  /usr/include/c++/5/bits/stl_relops.h \
-  /usr/include/c++/5/bits/stl_algo.h \
-  /usr/include/c++/5/bits/algorithmfwd.h \
-  /usr/include/c++/5/bits/stl_heap.h \
-  /usr/include/c++/5/bits/stl_tempbuf.h \
-  /usr/include/c++/5/bits/stl_construct.h \
-  /usr/include/c++/5/random \
   /usr/include/c++/5/limits \
   /usr/include/c++/5/bits/random.h \
   /usr/include/c++/5/vector \
@@ -627,13 +632,36 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/c++/5/bits/random.tcc \
   /usr/include/c++/5/numeric \
   /usr/include/c++/5/bits/stl_numeric.h \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4String.hh \
-  /usr/include/c++/5/cstring \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_x86.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/string3.h \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4String.icc \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/templates.hh \
-  /usr/include/c++/5/climits \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/include/c++/5/list \
+  /usr/include/c++/5/bits/stl_list.h \
+  /usr/include/c++/5/bits/list.tcc \
   /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
   /usr/include/limits.h \
@@ -642,6 +670,91 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/linux/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h \
+  /usr/include/c++/5/map \
+  /usr/include/c++/5/bits/stl_tree.h \
+  /usr/include/c++/5/ext/aligned_buffer.h \
+  /usr/include/c++/5/bits/stl_map.h \
+  /usr/include/c++/5/tuple \
+  /usr/include/c++/5/array \
+  /usr/include/c++/5/bits/uses_allocator.h \
+  /usr/include/c++/5/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RunManager.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Types.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/5/complex \
+  /usr/include/c++/5/sstream \
+  /usr/include/c++/5/bits/sstream.tcc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/tls.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Event.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/globals.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ios.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4String.hh \
+  /usr/include/c++/5/cstring \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4String.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/templates.hh \
+  /usr/include/c++/5/climits \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Exception.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VExceptionHandler.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ExceptionSeverity.hh \
@@ -660,14 +773,6 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/c++/5/bits/allocator.h \
   /usr/include/c++/5/bits/codecvt.h \
   /usr/include/c++/5/bits/unique_ptr.h \
-  /usr/include/c++/5/tuple \
-  /usr/include/c++/5/array \
-  /usr/include/c++/5/bits/uses_allocator.h \
-  /usr/include/c++/5/map \
-  /usr/include/c++/5/bits/stl_tree.h \
-  /usr/include/c++/5/ext/aligned_buffer.h \
-  /usr/include/c++/5/bits/stl_map.h \
-  /usr/include/c++/5/bits/stl_multimap.h \
   /usr/include/c++/5/mutex \
   /usr/include/c++/5/chrono \
   /usr/include/c++/5/ratio \
@@ -676,7 +781,6 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/c++/5/typeinfo \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Allocator.hh \
-  /usr/include/c++/5/cstddef \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4AllocatorPool.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryVertex.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/pwdefs.hh \
@@ -932,9 +1036,6 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ApplicationState.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserTrackingAction.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RunManagerKernel.hh \
-  /usr/include/c++/5/list \
-  /usr/include/c++/5/bits/stl_list.h \
-  /usr/include/c++/5/bits/list.tcc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UIExecutive.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUIshell.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisManager.hh \
@@ -1032,6 +1133,8 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsFreeVector.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Pow.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh \
   ../physics.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EmStandardPhysics.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -1394,8 +1497,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModularPhysicsList.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cache.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
@@ -1403,8 +1504,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsListHelper.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPhysicsConstructor.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EmStandardPhysics.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RayTracerX.hh:
 
@@ -1414,13 +1513,7 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectoryModel.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryFilterFactories.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigi.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HitFilterFactories.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HepRepFileXMLWriter.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HepRepFile.hh:
 
@@ -1438,19 +1531,13 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4THitsMap.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VViewer.icc:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ViewerList.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SceneHandlerList.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModel.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NullModel.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ModelingParameters.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisExtent.hh:
 
@@ -1462,13 +1549,7 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UIExecutive.hh:
 
-/usr/include/c++/5/bits/stl_list.h:
-
-/usr/include/c++/5/list:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ApplicationState.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UItokenNum.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UIparameter.hh:
 
@@ -1520,8 +1601,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SmartVoxelHeader.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SmartVoxelNode.icc:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SmartVoxelNode.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackingMessenger.hh:
@@ -1542,8 +1621,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NavigationHistoryPool.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NavigationLevel.icc:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NavigationLevelRep.icc:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NavigationLevel.hh:
@@ -1556,8 +1633,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4AffineTransform.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Navigator.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.h:
@@ -1566,13 +1641,9 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoisson.h:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoissonQ.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandLandau.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandLandau.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandGeneral.icc:
 
@@ -1646,16 +1717,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ReferenceCountedHandle.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTouchable.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TouchableHandle.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackStatus.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/DualRand.h:
@@ -1665,8 +1726,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleMomentum.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleDefinition.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PDefManager.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleDefinition.hh:
 
@@ -1678,13 +1737,169 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ClassificationOfNewTrack.hh:
 
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EventManager.hh:
+
+/usr/include/c++/5/bits/stl_multiset.h:
+
+/usr/include/c++/5/bits/stl_set.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Utility.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserEventInformation.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectory.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryContainer.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigiCollection.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DCofThisEvent.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryModelFactories.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHitsCollection.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HCofThisEvent.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/pwdefs.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/Random.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryVertex.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandLandau.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModel.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VoxelNavigation.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StackManager.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EventManager.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
 
-/usr/include/c++/5/bits/stl_multiset.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PDefManager.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoisson.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TouchableHandle.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VViewer.icc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryFilterFactories.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SmartVoxelNode.icc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
+
+/usr/include/c++/5/bits/stl_list.h:
+
+/usr/include/c++/5/list:
+
+/usr/include/c++/5/iterator:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HitFilterFactories.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4NavigationLevel.icc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HepRepFileXMLWriter.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h:
 
@@ -1716,13 +1931,11 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h:
+
 /usr/include/c++/5/bits/algorithmfwd.h:
 
 /usr/include/c++/5/bits/stl_tempbuf.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryModelFactories.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHitsCollection.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialCutsCouple.hh:
 
@@ -1734,7 +1947,7 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/bits/locale_facets.h:
 
-/usr/include/c++/5/bits/istream.tcc:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h:
 
@@ -1743,6 +1956,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/wctype.h:
 
 /usr/include/c++/5/cwctype:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 
@@ -1768,11 +1983,15 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/linux/errno.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
+
 /usr/include/errno.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h:
 
 /usr/include/c++/5/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
@@ -1800,6 +2019,12 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Event.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
+
+/usr/include/libio.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DigiFilterFactories.hh:
 
 /usr/include/c++/5/bits/stl_pair.h:
@@ -1814,11 +2039,9 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
 
 /usr/include/stdlib.h:
 
@@ -1834,17 +2057,25 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessManager.icc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
+
 /usr/include/c++/5/ext/alloc_traits.h:
 
 /usr/include/c++/5/bits/basic_string.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigiCollection.hh:
 
 /usr/include/c++/5/bits/range_access.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h:
 
 /usr/include/c++/5/backward/binders.h:
+
+/usr/include/c++/5/set:
+
+/usr/include/c++/5/bits/ostream_insert.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Allocator.hh:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -1870,6 +2101,10 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/functional:
 
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RunManager.hh:
+
+/usr/include/stdio.h:
+
 /usr/include/xlocale.h:
 
 /usr/include/c++/5/bits/stringfwd.h:
@@ -1881,6 +2116,10 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h:
 
 /usr/include/c++/5/ios:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -1898,6 +2137,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
+
 /usr/include/c++/5/bits/streambuf_iterator.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h:
@@ -1905,12 +2146,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleTable.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VSolid.icc:
-
-/usr/include/x86_64-linux-gnu/bits/huge_val.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -1924,13 +2159,17 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
+
 /usr/include/c++/5/bits/postypes.h:
 
 /usr/include/c++/5/exception:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserEventInformation.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/inf.h:
 
@@ -1968,29 +2207,41 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/ratio:
 
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VRML2File.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryParticle.hh:
+
+/usr/include/c++/5/stdexcept:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
 
 /usr/include/c++/5/bits/stl_relops.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ios.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/Random.h:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisExecutive.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryVertex.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Profiler.icc:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/endian.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
 /usr/include/c++/5/bits/stl_map.h:
 
 /usr/include/wchar.h:
 
 /usr/include/c++/5/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
 
 /usr/include/c++/5/bits/stl_vector.h:
 
@@ -2001,6 +2252,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsVector.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ElementTable.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
@@ -2020,13 +2273,15 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/bits/localefwd.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
 /usr/include/x86_64-linux-gnu/c++/5/bits/error_constants.h:
 
-/usr/include/c++/5/bits/ostream_insert.h:
-
-/usr/include/c++/5/set:
-
 /usr/include/c++/5/streambuf:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Globals.hh:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 ../construction.cc:
 
@@ -2034,17 +2289,25 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/bits/locale_facets.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h:
 
 /usr/include/c++/5/bits/basic_ios.tcc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
+
 /usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
 
 /usr/include/c++/5/complex:
 
 /usr/include/c++/5/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -2080,10 +2343,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserDetectorConstruction.hh:
 
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Globals.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Plane3D.h:
 
 /usr/include/locale.h:
@@ -2097,6 +2356,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/c++/5/bits/vector.tcc:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
 
 /usr/include/c++/5/bits/exception_ptr.h:
 
@@ -2152,6 +2413,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/bits/stl_function.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserTrackingAction.hh:
@@ -2164,21 +2427,13 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/sched.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VParticleChange.hh:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/AxisAngle.icc:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisExecutive.hh:
-
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
-
-/usr/include/endian.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Profiler.icc:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
 
 /usr/include/c++/5/bits/predefined_ops.h:
 
@@ -2210,6 +2465,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:
+
 /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h:
@@ -2217,6 +2474,10 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SceneList.hh:
 
 /usr/include/c++/5/locale:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VExceptionHandler.hh:
 
@@ -2270,11 +2531,17 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h:
 
+/usr/include/c++/5/bits/istream.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_x86.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TouchableHistory.hh:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/mwaitxintrin.h:
 
@@ -2296,8 +2563,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectory.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ViewParameters.hh:
 
 /usr/include/c++/5/bits/basic_ios.h:
@@ -2315,8 +2580,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/lib/gcc/x86_64-linux-gnu/5/include/lwpintrin.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GeomSplitter.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DCofThisEvent.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4THitsCollection.hh:
 
@@ -2368,11 +2631,15 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SteppingControl.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4String.hh:
 
 /usr/include/c++/5/bits/shared_ptr_atomic.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandBit.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Point3D.h:
 
@@ -2404,9 +2671,13 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/trkdefs.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
+
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h:
+
+/usr/include/c++/5/bits/stream_iterator.h:
 
 /usr/include/c++/5/fstream:
 
@@ -2427,8 +2698,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/c++/5/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/5/bits/unique_ptr.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh:
 
 /usr/include/c++/5/bits/uses_allocator.h:
 
@@ -2452,8 +2721,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/geomwdefs.hh:
 
-/usr/include/c++/5/bits/parse_numbers.h:
-
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Isotope.hh:
@@ -2463,6 +2730,10 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/geomdefs.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Types.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RotationMatrix.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h:
 
@@ -2477,6 +2748,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h:
 
 /usr/include/c++/5/backward/auto_ptr.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/Rotation.h:
 
@@ -2514,6 +2787,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Threading.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/5/include/x86intrin.h:
 
 /usr/include/c++/5/condition_variable:
@@ -2539,6 +2814,12 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/c++/5/atomic:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPhysicalVolume.icc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UItokenNum.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h:
 
@@ -2576,10 +2857,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RotationMatrix.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Types.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -2602,8 +2879,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Box.icc:
 
-/usr/include/c++/5/bits/stl_set.h:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UImanager.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Material.hh:
@@ -2612,6 +2887,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IsotopeVector.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesIndex.hh:
 
 /usr/include/c++/5/bits/uniform_int_dist.h:
@@ -2619,6 +2896,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Transform3D.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsOrderedFreeVector.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialTable.hh:
 
@@ -2638,6 +2917,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsVector.icc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesTable.icc:
@@ -2648,15 +2929,13 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Profiler.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataVector.icc:
 
 /usr/include/c++/5/iosfwd:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ElementVector.hh:
-
-/usr/include/libio.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Event.hh:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h:
 
@@ -2672,26 +2951,40 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh:
 
-/usr/include/stdio.h:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4RunManager.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Allocator.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/pwdefs.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTouchable.icc:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VRML2File.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh:
 
-/usr/include/c++/5/stdexcept:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryParticle.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EmStandardPhysics.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HCofThisEvent.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryContainer.hh:
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Navigator.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Utility.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfeatures.h:
+
+/usr/include/c++/5/bits/parse_numbers.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VSolid.icc:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:

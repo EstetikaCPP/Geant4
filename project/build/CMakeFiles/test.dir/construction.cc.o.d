@@ -324,4 +324,10 @@ CMakeFiles/test.dir/construction.cc.o: \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4LPhysicsFreeVector.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsFreeVector.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Pow.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Color.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc

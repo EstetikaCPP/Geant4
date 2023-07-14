@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "G4RunManager.hh"
 #include "G4UIExecutive.hh"
 #include "G4VisManager.hh"
@@ -7,8 +8,14 @@
 
 #include "construction.hh"
 #include "physics.hh"
+#include "StartWindow.hh"
+
 
 int main(int argc, char** argv){
+
+    
+
+    StartWindow(argc, argv);
     
     G4RunManager *runManager = new G4RunManager();
 
@@ -21,8 +28,16 @@ int main(int argc, char** argv){
     visManager->Initialize();
     
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
+    
+    UImanager->ApplyCommand("/vis/open OGL");
+    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+    UImanager->ApplyCommand("/vis/drawVolume");
+    
     ui->SessionStart();
     
     
     return 0;
 }
+
+
+
