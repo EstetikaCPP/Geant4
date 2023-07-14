@@ -83,10 +83,24 @@ CMakeFiles/test.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/soft/project/main.cc -o CMakeFiles/test.dir/main.cc.s
 
+CMakeFiles/test.dir/action.cc.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/action.cc.o: ../action.cc
+CMakeFiles/test.dir/action.cc.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/action.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/action.cc.o -MF CMakeFiles/test.dir/action.cc.o.d -o CMakeFiles/test.dir/action.cc.o -c /home/user/soft/project/action.cc
+
+CMakeFiles/test.dir/action.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/action.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/soft/project/action.cc > CMakeFiles/test.dir/action.cc.i
+
+CMakeFiles/test.dir/action.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/action.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/soft/project/action.cc -o CMakeFiles/test.dir/action.cc.s
+
 CMakeFiles/test.dir/construction.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/construction.cc.o: ../construction.cc
 CMakeFiles/test.dir/construction.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/construction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/construction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/construction.cc.o -MF CMakeFiles/test.dir/construction.cc.o.d -o CMakeFiles/test.dir/construction.cc.o -c /home/user/soft/project/construction.cc
 
 CMakeFiles/test.dir/construction.cc.i: cmake_force
@@ -97,10 +111,24 @@ CMakeFiles/test.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/construction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/soft/project/construction.cc -o CMakeFiles/test.dir/construction.cc.s
 
+CMakeFiles/test.dir/generator.cc.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/generator.cc.o: ../generator.cc
+CMakeFiles/test.dir/generator.cc.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/generator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/generator.cc.o -MF CMakeFiles/test.dir/generator.cc.o.d -o CMakeFiles/test.dir/generator.cc.o -c /home/user/soft/project/generator.cc
+
+CMakeFiles/test.dir/generator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/generator.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/soft/project/generator.cc > CMakeFiles/test.dir/generator.cc.i
+
+CMakeFiles/test.dir/generator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/generator.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/soft/project/generator.cc -o CMakeFiles/test.dir/generator.cc.s
+
 CMakeFiles/test.dir/physics.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/physics.cc.o: ../physics.cc
 CMakeFiles/test.dir/physics.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/physics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/physics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/physics.cc.o -MF CMakeFiles/test.dir/physics.cc.o.d -o CMakeFiles/test.dir/physics.cc.o -c /home/user/soft/project/physics.cc
 
 CMakeFiles/test.dir/physics.cc.i: cmake_force
@@ -114,14 +142,18 @@ CMakeFiles/test.dir/physics.cc.s: cmake_force
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/main.cc.o" \
+"CMakeFiles/test.dir/action.cc.o" \
 "CMakeFiles/test.dir/construction.cc.o" \
+"CMakeFiles/test.dir/generator.cc.o" \
 "CMakeFiles/test.dir/physics.cc.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
 test: CMakeFiles/test.dir/main.cc.o
+test: CMakeFiles/test.dir/action.cc.o
 test: CMakeFiles/test.dir/construction.cc.o
+test: CMakeFiles/test.dir/generator.cc.o
 test: CMakeFiles/test.dir/physics.cc.o
 test: CMakeFiles/test.dir/build.make
 test: /home/user/soft/geant4-v10.7.2-install/lib/libG4Tree.so
@@ -171,7 +203,7 @@ test: /home/user/soft/geant4-v10.7.2-install/lib/libG4global.so
 test: /home/user/soft/geant4-v10.7.2-install/lib/libG4clhep.so
 test: /home/user/soft/geant4-v10.7.2-install/lib/libG4ptl.so.0.0.2
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/soft/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

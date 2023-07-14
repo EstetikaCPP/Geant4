@@ -687,4 +687,11 @@ CMakeFiles/test.dir/main.cc.o: /home/user/soft/project/main.cc \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+ /home/user/soft/project/action.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserActionInitialization.hh \
+ /home/user/soft/project/generator.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleGun.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleTable.hh
