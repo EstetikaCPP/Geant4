@@ -694,4 +694,9 @@ CMakeFiles/test.dir/main.cc.o: /home/user/soft/project/main.cc \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleGun.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleTable.hh
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleTable.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSAngDistribution.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataInterpolation.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSPosDistribution.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSRandomGenerator.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh

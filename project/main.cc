@@ -36,7 +36,7 @@ int main(int argc, char** argv){
     UImanager->ApplyCommand("/vis/scene/add/trajectories");
     UImanager->ApplyCommand("/vis/scene/add/hits");
     UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
-
+    UImanager->ApplyCommand("/gps/particle gamma");
     
     
     ui->SessionStart();

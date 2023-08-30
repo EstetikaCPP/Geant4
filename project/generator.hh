@@ -5,6 +5,9 @@
 #include "G4ParticleGun.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleTable.hh"
+#include "G4SPSAngDistribution.hh"
+#include "Randomize.hh"
+
 
 class MyPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 {
@@ -14,7 +17,7 @@ public:
 
     virtual void GeneratePrimaries(G4Event*);
 private:
-    G4ParticleGun *fParticleGun;    
+    G4ParticleGun *particleGun;    
 
 };
 
