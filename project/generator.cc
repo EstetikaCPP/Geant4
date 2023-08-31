@@ -22,7 +22,7 @@ void MyPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
     G4ParticleDefinition *particle = particleTable->FindParticle(particleName);
 
 // Установка количества частиц в пучке
-    G4int numberOfParticlesInBeam = 100;
+    G4int numberOfParticlesInBeam = 10;
    // particleGun->SetNumberOfParticles(numberOfParticlesInBeam);
 
     

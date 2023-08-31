@@ -859,7 +859,9 @@ CMakeFiles/test.dir/construction.cc.o: ../construction.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Color.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.icc
 
 CMakeFiles/test.dir/generator.cc.o: ../generator.cc \
   /usr/include/stdc-predef.h \
@@ -1968,6 +1970,8 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SystemOfUnits.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.icc \
   ../physics.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EmStandardPhysics.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -2698,6 +2702,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 ../main.cc:
 
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.hh:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Pow.hh:
@@ -3355,6 +3361,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4AuxiliaryNavServices.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.icc:
 
 /usr/include/c++/5/ext/numeric_traits.h:
 

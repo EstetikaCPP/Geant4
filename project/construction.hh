@@ -10,6 +10,7 @@
 #include "G4SystemOfUnits.hh"
 #include "G4Colour.hh"
 #include "G4VisAttributes.hh"
+#include "G4Cons.hh"
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction
 {

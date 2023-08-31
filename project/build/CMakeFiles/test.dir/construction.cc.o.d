@@ -330,4 +330,6 @@ CMakeFiles/test.dir/construction.cc.o: \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/graphics_reps_defs.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Colour.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Color.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VisAttributes.icc \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.icc
