@@ -11,10 +11,17 @@
 #include "StartWindow.hh"
 #include "action.hh"
 
+#include "usersettings.hh"
+
+using namespace settings;
+
 int main(int argc, char** argv){
+    
+    
 
+    StartWindow(argc, argv, s_material);
 
-    StartWindow(argc, argv);
+    G4cout << s_material << G4endl;
     
     G4RunManager *runManager = new G4RunManager();
 

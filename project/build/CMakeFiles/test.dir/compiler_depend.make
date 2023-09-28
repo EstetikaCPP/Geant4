@@ -464,7 +464,79 @@ CMakeFiles/test.dir/action.cc.o: ../action.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.h \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.icc
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserEventAction.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserSteppingAction.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SteppingControl.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepStatus.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Material.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Element.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Isotope.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IonisParamElm.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IsotopeVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ElementTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesTable.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IonisParamMat.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Exp.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SandiaTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OrderedTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataVector.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ElementVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Profiler.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Profiler.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Globals.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Types.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/5/set \
+  /usr/include/c++/5/bits/stl_set.h \
+  /usr/include/c++/5/bits/stl_multiset.h \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/trkdefs.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DynamicParticle.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4LorentzVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ElectronOccupancy.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DynamicParticle.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackStatus.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserTrackInformation.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Event.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HCofThisEvent.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHitsCollection.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DCofThisEvent.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigiCollection.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryContainer.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectory.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserEventInformation.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryVertex.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryParticle.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleDefinition.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VProcess.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsTable.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsTable.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VParticleChange.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackFastVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4FastVector.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VParticleChange.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ForceCondition.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GPILSelection.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleChange.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleChange.icc \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessType.hh
 
 CMakeFiles/test.dir/construction.cc.o: ../construction.cc \
   /usr/include/stdc-predef.h \
@@ -1981,8 +2053,6 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cache.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4CacheDetails.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUPLSplitter.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalParameters.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModularPhysicsList.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserPhysicsList.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProductionCutsTable.hh \
@@ -2085,6 +2155,28 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   ../action.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserActionInitialization.hh \
   ../generator.hh \
@@ -2096,7 +2188,11 @@ CMakeFiles/test.dir/main.cc.o: ../main.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataInterpolation.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSPosDistribution.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSRandomGenerator.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserEventAction.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserSteppingAction.hh \
+  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh \
+  ../usersettings.hh
 
 CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
   /usr/include/stdc-predef.h \
@@ -2418,12 +2514,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4CacheDetails.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUPLSplitter.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalParameters.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ThreeVector.hh \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Utility/defs.h \
-  /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModularPhysicsList.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserPhysicsList.hh \
   /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProductionCutsTable.hh \
@@ -2438,6 +2528,24 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 ../physics.cc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
@@ -2447,6 +2555,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
 
@@ -2479,8 +2589,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
 
@@ -2531,10 +2639,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProductionCutsTable.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModularPhysicsList.hh:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
 
@@ -2630,73 +2734,17 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessVector.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessType.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ForceCondition.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MCCIndexConversionTable.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GMocrenFile.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VParticleChange.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4FastVector.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsTable.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessManager.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackingManager.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PrimaryTransformer.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHit.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackVector.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepStatus.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserTrackInformation.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackStatus.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StackedTrack.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ClassificationOfNewTrack.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4EventManager.hh:
-
-/usr/include/c++/5/bits/stl_multiset.h:
-
-/usr/include/c++/5/bits/stl_set.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Utility.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserEventInformation.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectory.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryContainer.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigiCollection.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DCofThisEvent.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryModelFactories.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHitsCollection.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HCofThisEvent.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/rundefs.hh:
 
@@ -2713,36 +2761,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VViewer.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ICRU90StoppingData.hh:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialTable.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataVector.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessVector.icc:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleChange.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SandiaTable.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SteppingManager.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Exp.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Vector3D.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4LorentzVector.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IonisParamMat.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesIndex.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesTable.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UImanager.hh:
-
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Material.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PVPlacement.hh:
 
@@ -2765,6 +2783,98 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 ../construction.hh:
 
 ../construction.cc:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessType.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ForceCondition.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MCCIndexConversionTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GMocrenFile.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VParticleChange.icc:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4FastVector.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserEventInformation.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VTrajectory.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryContainer.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VDigiCollection.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DCofThisEvent.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrajectoryModelFactories.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHitsCollection.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4HCofThisEvent.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/evtdefs.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.icc:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserTrackInformation.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackStatus.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.icc:
+
+/usr/include/c++/5/bits/stl_multiset.h:
+
+/usr/include/c++/5/bits/stl_set.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/PTL/Utility.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VHit.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4TrackVector.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.icc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataVector.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProcessVector.icc:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ParticleChange.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SandiaTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SteppingManager.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Exp.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Vector3D.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4LorentzVector.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4IonisParamMat.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesIndex.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertiesTable.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UImanager.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Material.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepStatus.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4StepPoint.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserEventAction.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
 
@@ -2834,6 +2944,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UIcommandStatus.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4PhysicsTable.icc:
@@ -2870,9 +2982,9 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/utility:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Normal3D.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h:
 
@@ -2914,9 +3026,9 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/cstddef:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserSteppingAction.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4MaterialPropertyVector.hh:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserSteppingAction.hh:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/Rotation.icc:
 
@@ -2945,6 +3057,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/linux/errno.h:
 
 /usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h:
 
@@ -3084,6 +3198,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/RotationZ.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
@@ -3122,11 +3238,15 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/stdio.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
+
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4BlockingList.hh:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h:
+
+../usersettings.hh:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h:
 
@@ -3167,6 +3287,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/c++/5/ios:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GRSVolume.hh:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -3237,6 +3359,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
 
 /usr/include/c++/5/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
@@ -3360,9 +3484,9 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4AuxiliaryNavServices.hh:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.hh:
-
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cons.icc:
+
+/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Track.hh:
 
 /usr/include/c++/5/ext/numeric_traits.h:
 
@@ -3698,6 +3822,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /usr/include/c++/5/bits/locale_facets_nonio.tcc:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
+
 /usr/include/c++/5/bits/locale_conv.h:
 
 /usr/include/c++/5/bits/atomic_lockfree_defines.h:
@@ -3752,8 +3878,6 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc:
 
-/home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalParameters.hh:
-
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSPosDistribution.hh:
@@ -3789,6 +3913,8 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 /usr/include/x86_64-linux-gnu/bits/huge_vall.h:
 
 /usr/include/c++/5/thread:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Random/RandPoisson.icc:
 
@@ -3868,9 +3994,13 @@ CMakeFiles/test.dir/physics.cc.o: ../physics.cc \
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/RotationX.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
+
 /usr/include/c++/5/ctime:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
 
 /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4GlobalConfig.hh:
 

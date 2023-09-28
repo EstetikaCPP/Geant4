@@ -35,7 +35,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     
     G4VPhysicalVolume *physObject = new G4PVPlacement(0, G4ThreeVector(0., 0., -0.7*m), logicalObject, "physObject", logicalWorld, false, 0, true);
 
-    G4VPhysicalVolume *physGenerator = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.4*m), logicalGenerator, "physGenerator", logicalWorld, false, 0, true);
+    G4VPhysicalVolume *physGenerator = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.5*m), logicalGenerator, "physGenerator", logicalWorld, false, 0, true);
     
     return physWorld;
 }

@@ -587,8 +587,6 @@ CMakeFiles/test.dir/main.cc.o: /home/user/soft/project/main.cc \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Cache.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4CacheDetails.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUPLSplitter.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalPhysics.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4OpticalParameters.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserPhysicsList.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4ProductionCutsTable.hh \
@@ -690,6 +688,28 @@ CMakeFiles/test.dir/main.cc.o: /home/user/soft/project/main.cc \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /home/user/soft/project/action.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/user/soft/project/generator.hh \
@@ -701,4 +721,8 @@ CMakeFiles/test.dir/main.cc.o: /home/user/soft/project/main.cc \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4DataInterpolation.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSPosDistribution.hh \
  /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4SPSRandomGenerator.hh \
- /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/Randomize.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/user/soft/geant4-v10.7.2-install/include/Geant4/G4Step.hh \
+ /home/user/soft/project/usersettings.hh
