@@ -12,6 +12,7 @@
 #include "G4VisAttributes.hh"
 #include "G4Cons.hh"
 
+
 class MyDetectorConstruction : public G4VUserDetectorConstruction
 {
 public:

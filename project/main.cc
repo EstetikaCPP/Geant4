@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 #include "G4RunManager.hh"
@@ -8,20 +9,17 @@
 
 #include "construction.hh"
 #include "physics.hh"
-#include "StartWindow.hh"
 #include "action.hh"
 
-#include "usersettings.hh"
 
-using namespace settings;
 
 int main(int argc, char** argv){
     
     
+   // from_file(s_material, s_thickness, s_NumberOfParicles);
 
-    StartWindow(argc, argv, s_material);
-
-    G4cout << s_material << G4endl;
+   // G4cout << s_material << "\t" << s_thickness << "\t" << s_NumberOfParicles;
+   
     
     G4RunManager *runManager = new G4RunManager();
 

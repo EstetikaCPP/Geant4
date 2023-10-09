@@ -1,5 +1,9 @@
 #include "construction.hh"
 
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 MyDetectorConstruction::MyDetectorConstruction()
 {}
@@ -9,14 +13,54 @@ MyDetectorConstruction::~MyDetectorConstruction()
 
 G4VPhysicalVolume *MyDetectorConstruction::Construct()
 {
+
+    G4String s_material;
+    G4double s_thickness;
+    
+
+    ifstream file;
+    file.open("/home/user/soft/project/parameters.txt");
+
+    if (!file.is_open()) {
+        cerr << "Не удалось открыть файл!" << std::endl;
+        
+    }
+
+    string line;
+    vector<std::string> words;
+    
+    while (getline(file, line)) {
+        // Разбиваем строку на слова с использованием пробелов как разделителей
+        istringstream iss(line);
+        string word;
+        
+        while (iss >> word) {
+            words.push_back(word);
+        }
+    }
+
+    file.close();
+
+    // Проверяем, есть ли слова в векторе
+    if (!words.empty()) {
+        // Последнее слово находится в конце вектора
+        s_material = string(words[3]);
+        s_thickness = stod(string(words[5]));
+    } 
+    else {
+        cout << "Файл пустой или не содержит слов." << std::endl;
+    }
+
+
+
     G4NistManager *nist = G4NistManager::Instance();
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
-    G4Material *object = nist->FindOrBuildMaterial("G4_Al");
+    G4Material *object = nist->FindOrBuildMaterial(s_material);
     G4Material *generator = nist->FindOrBuildMaterial("G4_Pb");
     
 
     G4Box *solidWorld = new G4Box("solidWorld", 1.*m, 1.*m, 1.5*m);
-    G4Box *solidObject = new G4Box("solidObject", 0.8*m, 0.8*m, 1.*cm);
+    G4Box *solidObject = new G4Box("solidObject", 0.8*m, 0.8*m, s_thickness*cm);
     G4Cons *solidGenerator = new G4Cons("solidGenerator", 0.*cm, 5.*cm, 0.*cm, 25.*cm, 40.*cm, 0.*deg, 360.*deg);
 
     G4LogicalVolume *logicalWorld = new G4LogicalVolume(solidWorld, worldMat, "logicalWorld");

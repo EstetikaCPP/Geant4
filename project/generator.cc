@@ -1,5 +1,11 @@
 #include "generator.hh"
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
 MyPrimaryGeneratorAction::MyPrimaryGeneratorAction()
 {
     particleGun = new G4ParticleGun();
@@ -14,15 +20,47 @@ MyPrimaryGeneratorAction::~MyPrimaryGeneratorAction()
 void MyPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
     
+
+    G4int s_NumberOfParicles;
+
+    ifstream file;
+    file.open("/home/user/soft/project/parameters.txt");
+
+    if (!file.is_open()) {
+        cerr << "Не удалось открыть файл!" << std::endl;
+        
+    }
+
+    string line;
+    vector<std::string> words;
     
-    
+    while (getline(file, line)) {
+        // Разбиваем строку на слова с использованием пробелов как разделителей
+        istringstream iss(line);
+        string word;
+        
+        while (iss >> word) {
+            words.push_back(word);
+        }
+    }
+
+    file.close();
+
+    // Проверяем, есть ли слова в векторе
+    if (!words.empty()) {
+        // Последнее слово находится в конце вектора
+        s_NumberOfParicles = stoi(string(words[1]));
+    } 
+    else {
+        cout << "Файл пустой или не содержит слов." << std::endl;
+    }
     
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
     G4String particleName = "gamma";
     G4ParticleDefinition *particle = particleTable->FindParticle(particleName);
 
 // Установка количества частиц в пучке
-    G4int numberOfParticlesInBeam = 5;
+    G4int numberOfParticlesInBeam = s_NumberOfParicles;
    // particleGun->SetNumberOfParticles(numberOfParticlesInBeam);
 
     

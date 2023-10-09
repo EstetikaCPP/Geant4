@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 project(Test)
 
 find_package(Geant4 REQUIRED ui_all vis_all)
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Core REQUIRED)
 
 
 include(${Geant4_USE_FILE})
