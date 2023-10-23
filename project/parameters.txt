@@ -1,3 +1,3 @@
 N_o_p: 10
-Mat: G4_Al
-Thick: 1
+Mat: G4_Fe
+Thick: 5
